@@ -9,13 +9,14 @@ The Bronze layer stores raw data exactly as received from the source systems wit
 
 Activities Performed:
 
- * Ingest raw retail order and customer datasets from source files.
- * Preserve original schema and data for auditing and traceability.
+    Ingest raw retail order and customer datasets from source files.
+    Preserve original schema and data for auditing and traceability.
 
 Add ingestion metadata:
- * ingestion_date
- * ingestion_timestamp
- * Maintain historical raw records without modification.
+
+     ingestion_date
+     ingestion_timestamp
+     Maintain historical raw records without modification.
 
 Purpose:
 
@@ -78,26 +79,28 @@ Additional date dimensions generated:
  * Day
 
 Business Metrics Generated:
- * Total Revenue
- * Total Quantity Sold
- * Total Orders
- * Average Revenue
- * Average Quantity
- * Average Loyalty Points
- * Minimum Product Price
- * Maximum Product Price
+
+    Total Revenue
+    Total Quantity Sold
+    Total Orders
+    Average Revenue
+    Average Quantity
+    Average Loyalty Points
+    Minimum Product Price
+    Maximum Product Price
 
 
 Aggregation Dimensions:
- * Product
- * Customer
- * Category
- * Order Date
- * Gender
- * City
- * State
- * Year
- * Month
+
+    Product
+    Customer
+    Category
+    Order Date
+    Gender
+    City
+    State
+    Year
+    Month
 
 
 Purpose:
