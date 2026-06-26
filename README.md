@@ -30,32 +30,31 @@ The Silver layer focuses on improving data quality and preparing data for analyt
 
 Transformations Performed: 
 
-  ✔ Fixed inconsistent date formats.
+    ✔ Fixed inconsistent date formats.
 
-✔ Standardized category values.
+    ✔ Standardized category values.
 
-✔ Removed duplicate records.
+    ✔ Removed duplicate records.
 
-✔ Handled missing/null values.
+    ✔ Handled missing/null values.
 
-✔ Converted discount values:
-  * "5%" → 0.05
-  * "10%" → 0.10
+    ✔ Converted discount values:
+    * "5%" → 0.05
+    * "10%" → 0.10
 
-✔ Removed invalid records with negative quantities.
+    ✔ Removed invalid records with negative quantities.
 
-✔ Standardized text casing:
-  * Customer names
-  * Cities
-  * States
-  * Categories
+    ✔ Standardized text casing:
+    * Customer names
+    * Cities
+    * States
+    * Categories
 
+    ✔ Cast unit_price to Decimal datatype.
 
-✔ Cast unit_price to Decimal datatype.
+    ✔ Validated customer email addresses.
 
-✔ Validated customer email addresses.
-
-✔ Recalculated total_amount using:
+    ✔ Recalculated total_amount using:
 
 Purpose:
  * Provides clean, validated, and standardized datasets for downstream consumption.
@@ -69,14 +68,14 @@ Fact Table Creation
 
 Created a fact_sales dataset by joining:
 
- * Orders dataset
- * Customers dataset
+    * Orders dataset
+    * Customers dataset
 
 Additional date dimensions generated:
 
- * Year
- * Month
- * Day
+    * Year
+    * Month
+    * Day
 
 Business Metrics Generated:
 
@@ -108,11 +107,12 @@ Purpose:
 
 
 Tech Stack
-  * Azure Databricks
-  * PySpark
-  * Delta Lake
-  * SQL
-  * Medallion Architecture
-  * GitHub
+
+     * Azure Databricks
+     * PySpark
+     * Delta Lake
+     * SQL
+     * Medallion Architecture
+     * GitHub
 
 
